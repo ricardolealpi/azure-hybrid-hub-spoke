@@ -1,0 +1,21 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# WireGuard y secretos locales
+*.key
+*.pem
+*wg0.conf
+
+# macOS y VS Code
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
